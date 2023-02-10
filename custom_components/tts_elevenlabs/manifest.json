@@ -1,0 +1,10 @@
+{
+  "domain": "tts_elevenlabs",
+  "name": "ElevenLabs Text-to-Speech (TTS)",
+  "version": "0.0.1",
+  "codeowners": [],
+  "documentation": "https://github.com/philiplawall/pyElevenlabs",
+  "iot_class": "cloud_push",
+  "loggers": ["pyElevenlabs"],
+  "requirements": ["pyElevenlabs==0.0.2"]
+}
