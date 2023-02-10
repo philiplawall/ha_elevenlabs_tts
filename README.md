@@ -4,7 +4,7 @@ To use add the following to your configuration.yaml
 
 ```
 tts:
-  - platform: tts_elevenlabs
+  - platform: elevenlabs
     api_key: "YOUR_API_KEY"
 ```
 
