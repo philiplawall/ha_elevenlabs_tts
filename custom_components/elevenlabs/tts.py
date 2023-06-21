@@ -57,7 +57,7 @@ class ElevenlabsProvider(Provider):
     def get_tts_audio(self, message, language, options=None):
         try:
             t = pyElevenlabsClient(self._apikey)
-            data = t.speak(options[CONF_TYPE], message)
+            data = t.speak(options[CONF_TYPE], message, model="eleven_multilingual_v1")
         except HTTPException as ex:
             _LOGGER.error("Error occurred for ElevenLabs TTS: %s", ex)
             return (None, None)
