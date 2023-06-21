@@ -1,11 +1,11 @@
 {
   "domain": "elevenlabs",
   "name": "ElevenLabs Text-to-Speech (TTS)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "codeowners": [],
   "documentation": "https://github.com/philiplawall/tts_elevenlabs",
   "issue_tracker": "https://github.com/philiplawall/tts_elevenlabs/issues",
   "iot_class": "cloud_push",
   "loggers": ["pyElevenlabs"],
-  "requirements": ["pyElevenlabs==0.0.2"]
+  "requirements": ["pyElevenlabs==0.0.3"]
 }
